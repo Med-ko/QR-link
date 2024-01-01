@@ -1,0 +1,51 @@
+body {
+    font-family: outfit, Arial, sans-serif;
+    font-size: 15px;
+    background-image: url(./images/img.png.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    }
+
+.back {
+    background-color: hsl(219, 73%, 90%);
+    border: 1px solid hsl(219, 73%, 90%);
+    padding: 300px 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(108, 131, 127);
+}
+
+img {
+    width: 88%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.inside {
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 1em 0;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
