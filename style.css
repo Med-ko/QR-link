@@ -6,7 +6,7 @@ body {
     background-origin: border-box;
     }
 
-.back {
+main {
     background-color: hsl(219, 73%, 90%);
     border: 1px solid hsl(219, 73%, 90%);
     padding: 300px 500px;
